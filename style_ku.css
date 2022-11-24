@@ -1,0 +1,48 @@
+body{
+    background-color: violet;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+    
+} 
+@keyframes example {
+    0% {
+       color: rgb(243, 243, 7); 
+       font-size: 100%;
+    } 
+    10%{
+        color: blue;
+        font-size: 110%;
+    }
+    20%{
+        color: rgb(9, 255, 0);
+    }
+    30%{
+        color: rgb(255, 0, 191);
+    }
+    40%{
+        color: rgb(0, 255, 191)
+    }
+    50%{
+        color: blueviolet;
+    }
+    60%{
+        color: rgb(255, 0, 0);
+    }
+    70%{
+        color: blue;
+    }
+    80%{
+        color: rgb(4, 192, 67);
+    }
+    90%{
+        color: crimson;
+    }
+    100%{
+        color: rgb(0, 0, 0);
+    }
+}
